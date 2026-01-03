@@ -1,0 +1,104 @@
+/* RESET DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f4f6f8;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #1f3a5f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+/* LOGO */
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* MENU UTAMA */
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+/* LINK MENU */
+.main-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* HOVER MENU */
+.main-menu a:hover {
+  background-color: #3498db;
+}
+
+/* DROPDOWN */
+.dropdown-parent {
+  position: relative;
+}
+
+/* SUBMENU */
+.submenu {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 160px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: none;
+  z-index: 100;
+}
+
+/* LINK SUBMENU */
+.submenu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #2c3e50;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* HOVER SUBMENU */
+.submenu li a:hover {
+  background-color: #ecf0f1;
+}
+
+/* TAMPILKAN DROPDOWN */
+.dropdown-parent:hover .submenu {
+  display: block;
+}
+
+/* TEKS KONTEN */
+.Teks {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.Teks h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.Teks p {
+  color: #555;
+}
