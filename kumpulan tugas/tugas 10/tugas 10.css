@@ -1,0 +1,66 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  background: #f4f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Judul */
+h1 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Container list */
+.list {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hilangkan bullet */
+.list ul {
+  list-style: none;
+}
+
+/* Jarak antar item */
+.list li {
+  margin-bottom: 12px;
+}
+
+/* Link tugas */
+.list a {
+  display: block;
+  text-decoration: none;
+  color: #34495e;
+  padding: 12px 15px;
+  border-radius: 6px;
+  background-color: #ecf0f1;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.list a:hover {
+  background-color: #3498db;
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+/* Aktif */
+.list a:active {
+  transform: scale(0.98);
+}
